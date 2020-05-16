@@ -1,0 +1,10 @@
+.reg
+
+	q1 +z
+	q2 +z
+
+
+.prog
+	H q1
+	cX q1, q2
+	st	
