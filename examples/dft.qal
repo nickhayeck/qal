@@ -1,0 +1,16 @@
+.reg 
+
+	q1 +z
+	q2 +z
+	q3 -z
+
+.prog
+	
+	H q1
+	cS q2,q1
+	cT q3,q1
+	H q2
+	cS q3,q2
+	H q3
+	st
+	
